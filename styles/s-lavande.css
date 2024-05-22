@@ -1,0 +1,41 @@
+html{
+background-color: #d6d7ff;
+}
+
+body {
+  width: 750px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 70px 40px 40px 50px;
+  
+}
+ 
+h1 {
+font-family: "Quicksand", sans-serif;
+text-align:center;
+font-size:50px;
+letter-spacing:2px;
+text-shadow: 6px 6px 2px #d6d7ff;
+margin: 0;
+}
+
+img {
+width:220px;
+display:block;
+margin: 0 auto;
+}
+
+p, div, ul {
+font-size: 20px;
+font-family: "Quicksand", sans-serif;
+
+}
+
+#infos {
+margin-top: 60px;
+text-align:right;
+}
+
+#carac {
+	margin-top:40px;
+}
