@@ -1,0 +1,39 @@
+html{
+background-color: #d6d7ff;
+}
+
+body {
+  width: 750px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 70px 40px 40px 50px;
+  
+}
+ 
+h1 {
+font-family: "Indie Flower", sans-serif;
+text-align:center;
+font-size:55px;
+text-shadow: 6px 6px 2px #d6d7ff;
+margin: 0;
+}
+
+img {
+width:220px;
+display:block;
+margin: 0 auto;
+}
+
+p, div, ul {
+font-size: 23px;
+font-family: "Dancing Script", sans-serif;
+}
+
+#infos {
+margin-top: 50px;
+text-align:right;
+}
+
+#carac {
+	margin-top:20px;
+}
