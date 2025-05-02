@@ -32,7 +32,7 @@ nav{
     text-align: center;
 }
 #banniere {
-    height: 250px;
+    height: 220px;
     background: linear-gradient(to left, #FC466B,#903ffb);
     display: flex;
     align-items: center;
@@ -51,6 +51,11 @@ nav{
 #videoaccueil{
     display:block;
     margin: 85px auto;
+}
+
+#photoaccueil {
+    display: block;
+    margin: 140px auto;
 }
 
 /* début footer */
@@ -158,6 +163,11 @@ footer p{
 
 #magicien {
     grid-column: 2;
+    grid-row: 5;
+}
+
+#linogravure {
+    grid-column: 3;
     grid-row: 5;
 }
 
