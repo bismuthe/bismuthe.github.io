@@ -3,7 +3,10 @@
 #nav a { /*les 3 liens de la barre de navigation*/
     color: black;
     text-decoration: none;
-    font-family: "Quicksand", sans-serif;
+   
+    font-family: "SUSE Mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 15px;
 }
 
@@ -27,35 +30,27 @@ nav{
 /* début bannière BIENVENUE */
 
 #banniere p {
-    font-family: "Quicksand", sans-serif;
+    font-family: "SUSE Mono", sans-serif;
+    font-weight: 200;
     color: white;
     text-align: center;
 }
 #banniere {
-    height: 220px;
+    height: 750px; 
     background: linear-gradient(to left, #FC466B,#903ffb);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+   
 }
-#bienvenue {
-    font-size: 50px;
+#PrenomNom {
+    font-size: 70px; 
+    font-weight: bold;
 }
 
 #phrasebanniere {
-    font-size: 30px;
-    line-height: 70px;
-}
- 
-#videoaccueil{
-    display:block;
-    margin: 85px auto;
-}
-
-#photoaccueil {
-    display: block;
-    margin: 140px auto;
+    font-size: 28px; 
+    line-height: 100px; 
 }
 
 /* début footer */
@@ -65,21 +60,19 @@ footer {
     
 }
 
-footer p{
+footer p {
     color: black;
-    text-decoration: none;
-    font-family: "Quicksand", sans-serif;
-    font-size: 15px;
-    text-align:center;
+    font-family: "SUSE Mono", sans-serif;
+    font-weight: 200;
+    text-align: center;
     padding: 9px;
-    
 }
 /* fin footer */
 
 /*logo VM*/
 #logoVM{
     font-size: 19px;
-    font-family: "Dancing script", sans-serif;
+    font-family: "Dancing Script", sans-serif;
     text-decoration: none;
     color: white;
     background: linear-gradient(to left, #FC466B,#903ffb);
@@ -95,7 +88,7 @@ footer p{
 
 
 .ensembleimages {
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 430px 335px 445px 590px;
